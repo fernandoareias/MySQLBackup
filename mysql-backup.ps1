@@ -1,12 +1,3 @@
-############################################################################
-#                                                                          #
-# Nome Script: MySQLBackup                                                 #
-# Autor: Fernando                                                          #
-# Contato: nando.calheirosx@gmail.com                                      #
-# GitHub: https://github.com/fernandocalheirox/MySQLbackup                 #
-#                                                                          #
-############################################################################
-
 param($database = $null, [switch]$alldatabases = $true, $server = "localhost", $user = "root", $password = "toor", $path_backup = "C:\Backup-MySQL\", [switch]$help = $false);
 
 
